@@ -65,9 +65,9 @@ mp_pose = mp.solutions.pose
 # Inicializa MediaPipe Pose
 pose = mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5)
 
-# Captura el video desde la cámara web (0) o un archivo de video
+
 img = cv2.imread("https://github.com/RubenSUArias/AngulosCorporales/blob/main/imagenes/Sentado2.png")  # Reemplaza 0 con la ruta a tu archivo de video si es necesario
-# Obtiene las dimensiones del video de entrada
+# Obtiene las dimensiones de la imagen de entrada
 height, width, _ = img.shape
 image_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
