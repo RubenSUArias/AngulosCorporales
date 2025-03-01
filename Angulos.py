@@ -161,8 +161,5 @@ end_angle=calculate_elipse(puntocero, right_hip, right_shoulder)
 cv2.ellipse(img, center_coordinates, axes_length,angle,start_angle, -end_angle, color, thickness)
 cv2.circle(img, coord_puntocero, 4, (0, 0, 250), -1)
 print(end_angle,start_angle,end_angle+start_angle)
-<<<<<<< HEAD
+
 cv2.imshow(img)
-=======
-cv2_imshow(img)
->>>>>>> 09a0221c45e91a7e102d5173f1b0d837dbf45afb
